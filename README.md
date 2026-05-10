@@ -3,51 +3,6 @@
 
 A stunning, fully responsive personal portfolio website built with **vanilla HTML, CSS, and JavaScript** featuring glassmorphism design, dark/light mode toggle, project filtering, and interactive elements.
 
-## 🌟 Features
-
-### 1. **Modern UI/UX Design**
-- Glassmorphism design with blur effects
-- Smooth animations and transitions
-- Professional dark theme (with light mode toggle)
-- Responsive gradient backgrounds
-
-### 2. **Navigation & Sections**
-- Sticky navbar with smooth scrolling
-- Mobile hamburger menu
-- Seven main sections:
-  - Hero Section
-  - About Me
-  - Skills
-  - Certifications
-  - Projects
-  - Unique Features
-  - Contact
-
-### 3. **Dark/Light Mode Toggle**
-- Seamless theme switching
-- Persistent theme preference (localStorage)
-- Beautiful light mode styling
-- Toggle button in navbar
-
-### 4. **Interactive Features**
-
-#### QR Code Generator
-- Generate QR codes dynamically
-- Integrated with project demo showcase
-- Uses QRCode.js library
-
-#### Project Filtering
-- Filter projects by category:
-  - All Projects
-  - Web Development
-  - QR Code & Geolocation
-  - .NET & Backend
-- Smooth filtering animations
-
-#### Typing Animation
-- Dynamic typing effect in hero section
-- Auto-cycling through predefined words
-- Smooth character animation
 
 ### 5. **Showcase Projects**
 
@@ -62,12 +17,6 @@ A stunning, fully responsive personal portfolio website built with **vanilla HTM
    - Payment processing
    - Admin dashboard
    - Tech: C#, .NET, SQL Server
-
-3. **Internship Tracking App**
-   - Mobile application
-   - Progress tracking
-   - Mentor communication
-   - Tech: Kotlin, Android, Firebase
 
 ### 6. **Comprehensive Skills Section**
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+), React.js
@@ -156,49 +105,6 @@ python -m SimpleHTTPServer 8000
 npx http-server
 ```
 
-3. **Access the site:**
-   - Open `http://localhost:8000` in your browser
-
-## �配置
-
-### Dark/Light Mode Preference
-The theme preference is automatically saved in browser's localStorage. Users can toggle between modes using the moon/sun icon in the navbar.
-
-### Updating Projects
-To add or modify projects, edit the `projects-grid` section in `index.html`:
-
-```html
-<div class="project-card glass scale-in" data-category="web qr">
-    <div class="project-img">
-        <img src="your-image.jpg" alt="Project Name">
-        <!-- ... -->
-    </div>
-    <div class="project-info">
-        <h3>Project Title</h3>
-        <p>Description...</p>
-        <div class="project-tech">
-            <span>Tech Stack</span>
-            <!-- ... -->
-        </div>
-        <div class="project-links">
-            <a href="github-link" target="_blank" class="link-btn"><i class="fab fa-github"></i> GitHub</a>
-            <a href="demo-link" target="_blank" class="link-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-        </div>
-    </div>
-</div>
-```
-
-### Customizing Skills
-Edit the skills section in `index.html` to add or remove skills:
-
-```html
-<div class="skill-box">
-    <div class="skill-info"><span>Skill Name</span><span>Progress %</span></div>
-    <div class="skill-bar">
-        <div class="skill-progress" data-width="85%"></div>
-    </div>
-</div>
-```
 
 ## 🌐 Deployment
 
@@ -318,6 +224,8 @@ Feel free to fork this repository and customize it for your own portfolio!
 - **LinkedIn:** https://www.linkedin.com/in/ancilla-veigas-4a106b31a
 
 ---
+
+live:https://superlative-kitsune-ded4e2.netlify.app/#home
 
 **Made with ❤️ by Ancilla Veigas**
 
